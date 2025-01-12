@@ -1,0 +1,726 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+.container--0- {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e9eaf0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container-0-1-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0px 16px 0px;
+}
+.container-1-2-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.container-2-3-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+.container-3-4-0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-4-5-0 {
+  width: 100%;
+  height: 100%;
+  color: #4e5566;
+  font-size: 14px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+}
+.container-3-4-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text-4-5-1 {
+  width: 100%;
+  height: 100%;
+  color: #8c94a3;
+  font-size: 14px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-2-3-1 {
+  width: 380px;
+  height: 22px;
+  color: #1d2026;
+  font-size: 16px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+}
+.container-1-2-1 {
+  position: relative;
+  width: 424px;
+  height: 28px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 104px;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+}
+.text-3-4-1 {
+  width: 100%;
+  height: 100%;
+  color: #4e5566;
+  font-size: 14px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.container-2-3-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 6px;
+  display: flex;
+}
+.container-1-2-3 {
+  position: relative;
+  width: 424px;
+  height: 22px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 43px;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+}
+.container-2-3-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 6px;
+  display: flex;
+}
+
+/* .container--0- {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container-0-1-0 {
+  position: relative;
+  width: 1920px;
+  height: 52px;
+  background-color: #1d2026;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0px 32px 0px 32px;
+}
+.container-1-2-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  display: flex;
+}
+.container-2-3-0 {
+  position: absolute;
+  left: 0px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-3-4-0 {
+  width: 100%;
+  height: 100%;
+  color: #a1a5b3;
+  font-size: 14px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.container-2-3-1 {
+  position: absolute;
+  left: 48px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.container-2-3-2 {
+  position: absolute;
+  left: 96px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.container-2-3-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+  display: flex;
+}
+.container-2-3-4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #1d2026;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  display: flex;
+  padding: 16px 16px 16px 16px;
+}
+.container-1-2-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+.container-3-4-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ff6636;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  padding: 0px 24px 0px 24px;
+}
+.container-0-1-1 {
+  position: relative;
+  width: 1920px;
+  height: 96px;
+  background-color: #ffffff;
+  box-shadow: 0px -1px 0px 0 #e9eaf0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 37px;
+  display: flex;
+  padding: 24px 32px 24px 32px;
+}
+.container-3-4-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffeee8;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  padding: 0px 24px 0px 24px;
+}
+.text-3-4-1 {
+  width: 100%;
+  height: 100%;
+  color: #1d2026;
+  font-size: 32px;
+  font-family: Inter, "Semi Bold";
+  font-weight: 600;
+  text-align: left;
+  vertical-align: top;
+}
+.text-4-5-0 {
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Inter, "Semi Bold";
+  font-weight: 600;
+  text-align: left;
+  vertical-align: top;
+}
+.container-4-5-1 {
+  position: absolute;
+  left: 166px;
+  top: 16px;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.container-4-5-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+.container-5-6-0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-5-6-1 {
+  width: 100%;
+  height: 100%;
+  color: #8c94a3;
+  font-size: 16px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+} */
+
+/* 
+.container--0- {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f7fa;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 300px 320px 300px;
+}
+.text-0-1-0 {
+  width: 100%;
+  height: 100%;
+  color: #1d2026;
+  font-size: 40px;
+  font-family: Inter, "Semi Bold";
+  font-weight: 600;
+  text-align: left;
+  vertical-align: top;
+}
+.container-0-1-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.container-1-2-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 25px;
+  display: flex;
+}
+.container-2-3-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 14px 0px;
+}
+.container-3-4-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container-4-5-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+.container-5-6-0 {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.text-6-7-0 {
+  width: 100%;
+  height: 100%;
+  color: #65390c;
+  font-size: 10px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+}
+.text-5-6-1 {
+  width: 100%;
+  height: 100%;
+  color: #8c94a3;
+  font-size: 14px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.text-4-5-1 {
+  width: 216px;
+  height: 40px;
+  color: #1d2026;
+  font-size: 14px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+}
+.container-3-4-3 {
+  position: relative;
+  width: 244px;
+  height: 22px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 51px;
+  display: flex;
+  padding: 0px 14px 0px 14px;
+}
+.container-4-5-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text-5-6-0 {
+  width: 100%;
+  height: 100%;
+  color: #4e5566;
+  font-size: 14px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+}
+.container-2-3-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 14px 0px;
+}
+.container-2-3-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 14px 0px;
+}
+.container-2-3-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 14px 0px;
+}
+.container-2-3-4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 14px 0px;
+}
+.container-1-2-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 25px;
+  display: flex;
+} */
+
+/* .container--0- {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 300px 80px 300px;
+}
+.text-0-1-0 {
+  width: 100%;
+  height: 100%;
+  color: #1d2026;
+  font-size: 40px;
+  font-family: Inter, "Semi Bold";
+  font-weight: 600;
+  text-align: left;
+  vertical-align: top;
+}
+.container-0-1-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.container-1-2-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  display: flex;
+}
+.container-2-3-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff2e5;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  padding: 20px 20px 20px 20px;
+}
+.container-3-4-0 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  display: flex;
+  padding: 16px 16px 16px 16px;
+}
+.container-4-5-0 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.container-3-4-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.text-4-5-0 {
+  width: 188px;
+  height: 22px;
+  color: #1d2026;
+  font-size: 16px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: left;
+  vertical-align: top;
+}
+.text-4-5-1 {
+  width: 182px;
+  height: 22px;
+  color: #6e7485;
+  font-size: 14px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: left;
+  vertical-align: top;
+}
+.container-2-3-1 {
+  position: absolute;
+  left: 77px;
+  top: 4px;
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
+}
+.container-2-3-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #e1f7e3;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  padding: 20px 20px 20px 20px;
+}
+.container-2-3-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff2e5;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  padding: 20px 20px 20px 20px;
+}
+.container-1-2-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  padding: 4px 0px 4px 0px;
+}
+.container-1-2-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  display: flex;
+}
+.container-0-1-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+.text-1-2-0 {
+  width: 100%;
+  height: 100%;
+  color: #4e5566;
+  font-size: 14px;
+  font-family: Inter, "Regular";
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
+}
+.text-2-3-0 {
+  width: 100%;
+  height: 100%;
+  color: #ff6636;
+  font-size: 14px;
+  font-family: Inter, "Medium";
+  font-weight: 500;
+  text-align: center;
+  vertical-align: top;
+} */
