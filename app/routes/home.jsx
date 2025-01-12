@@ -24,6 +24,9 @@ export default function Home() {
 
   return (
     <>
+   <Categories /> 
+   <CourseCard />
+   <FeaturedCourses />
     <div className="container my-5">
       <div className="row">
         {/* Become Instructor */}
@@ -45,6 +48,7 @@ export default function Home() {
       </div>
     </div>
     <div className="container my-5 d-flex justify-content-center">
+      <div className="row">
       <InstructorCard
         // image={instructorImage}
         name="Devon Lane"
@@ -52,6 +56,35 @@ export default function Home() {
         rating="4.6"
         students="854"
       />
+       <InstructorCard
+        // image={instructorImage}
+        name="Devon Lane"
+        title="Senior Developer"
+        rating="4.6"
+        students="854"
+      />
+       <InstructorCard
+        // image={instructorImage}
+        name="Devon Lane"
+        title="Senior Developer"
+        rating="4.6"
+        students="854"
+      />
+       <InstructorCard
+        // image={instructorImage}
+        name="Devon Lane"
+        title="Senior Developer"
+        rating="4.6"
+        students="854"
+      />
+       <InstructorCard
+        // image={instructorImage}
+        name="Devon Lane"
+        title="Senior Developer"
+        rating="4.6"
+        students="854"
+      />
+    </div>
     </div>
     </>
   );
